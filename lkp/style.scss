@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+$coklat:#EBBB83;
+
+::selection {
+
+    background-color: #b58d5f;
+    color: white;
+}
+
+.container {
+
+    .logo {
+        padding-top: 50px;
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 80px;
+
+        }
+    }
+}
+
+.image-text {
+
+    img {
+        border-radius: 12px;
+    }
+
+    .judul {
+
+        background-color: #EBBB83;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 70%;
+        position: relative;
+        margin-top: -60px;
+        padding: 12px 10px;
+        border-radius: 12px;
+        color: #ffffff;
+        font-family: Poppins;
+        cursor: defaul;
+        transition: 0.5s;
+        box-shadow: #b2b2b2 0px 0px 7px;
+
+
+        &:hover {
+            background-color: #d5a46c;
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2em;
+
+        }
+    }
+}
+
+
+
+.salam {
+    font-family: Poppins;
+    border-radius: 5px;
+    background-color: #FFF0DE;
+    padding: 20px 25px;
+    color: #97744B;
+
+
+    h4 {
+        font-size: 22px;
+
+        span {
+            height: 20px;
+            width: 20px;
+            background-color: red;
+        }
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
+
+
+
+
+.jadwal {
+
+    .container {
+
+        h3 {
+            font-family: poppins;
+            color: #97744B;
+            font-weight: 600;
+        }
+
+        .deskripsi-galeri {
+            color: #97744B;
+            margin-top: -12px;
+
+        }
+
+        .row {
+
+
+            .link-maps {
+                width: 100%;
+                height: 60px;
+                padding-top: 20px;
+                text-align: right;
+
+
+                a {
+                    color: white;
+                    background-color: #CCA374;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    font-family: poppins;
+                    margin-right: 10px;
+
+
+                }
+            }
+
+
+
+            .col-xs-12 {
+
+
+                .jadwal-kegiatan {
+
+                    background-color: #F1F1F1;
+
+                    ul {
+                        list-style: none;
+                        padding-top: 20px;
+                        padding-left: 12px;
+                        padding-right: 5px;
+
+                        li {
+                            display: flex;
+                            color: #575757;
+                            padding-bottom: 20px;
+
+
+                            span {
+                                font-size: 35px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .hari-jam {
+                padding-left: 14px;
+
+                p {
+                    font-size: 19px;
+                    font-family: poppins;
+                }
+            }
+        }
+
+
+        .link-pendaftaran {
+            text-align: center;
+            padding-top: 30px;
+
+
+            p {
+                color: #575757;
+                font-family: poppins;
+                font-size: 17px;
+                padding-bottom: 10px;
+            }
+
+            a {
+                color: white;
+                background-color: #CCA374;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-family: poppins;
+                border-radius: 3px;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: #b08a5f;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.container-galery {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px
+}
+
+.slides {
+    display: flex;
+    height: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#next-btn,
+#prev-btn {
+    cursor: pointer;
+    background: transparent;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+#next-btn:focus,
+#prev-btn:focus {
+    outline: none;
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    font-size: 60px;
+    color: white;
+}
+
+.copyright {
+    color: #575757;
+    font-size: 15px;
+
+    a {
+        text-decoration: none;
+        color: #575757;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// Halaman admin
+
+.header {
+    background-color: #FFF0DE;
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: #CCA374 solid 1px;
+    color: #97744B;
+
+
+
+}
+
+
+.container {
+
+    #active {
+        background-color: #CCA374;
+        color: white;
+    }
+
+    .row {
+        padding-bottom: 20px;
+
+        h5 {
+            color: #575757;
+            font-weight: 400;
+            font-family: poppins;
+        }
+
+        .col {
+
+
+
+            .form-control {
+                border: #bf9c73 solid 1px;
+                background-color: #f7f7f7;
+                font-size: 15px;
+                padding: 10px 10px;
+
+
+
+
+                &:focus {
+                    border: #97744B solid 1px;
+                    outline: 0px !important;
+                    box-shadow: none !important;
+                }
+
+
+            }
+        }
+    }
+}
+
+
+
+//loginnn
+
+
+.login-admin {
+
+    .login {
+        background-color: #F5F5F5;
+        padding: 25px 30px;
+
+
+        img {
+            height: 60px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+
+
+        form {
+
+            .form-group {
+
+                .form-control {
+
+                    border: #bf9c73 solid 1px;
+                    background-color: #f7f7f7;
+                    font-size: 15px;
+                    padding: 10px 10px;
+
+
+                    &:focus {
+                        border: #97744B solid 1px;
+                        outline: 0px !important;
+                        box-shadow: none !important;
+                    }
+
+
+                }
+
+                #btn-login {
+                    background-color: #CCA374;
+                    color: white;
+                    transition: 0.2s;
+
+                    &:hover {
+                        background-color: #bd9568;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+
+
+//Pendaftarann
+
+.container {
+
+
+
+    .logo {
+
+        img {
+            height: 100px;
+        }
+
+        p {
+            font-size: 30px;
+            text-align: center;
+            padding-top: 20px;
+            color: #575757;
+          
+        }
+    }
+
+    .button-file {
+
+
+        a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 10px;
+            padding: 10px 0px;
+            background-color: #CCA374;
+            color: white;
+            font-family: poppins;
+            font-size: 18px;
+            transition: 0.2s;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: #b08b61;
+            }
+        }
+    }
+}
